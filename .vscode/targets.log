@@ -1,0 +1,416 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.4.1
+# Built for Windows32
+# Copyright (C) 1988-2023 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Dec 19 22:16:41 2025
+
+# Variables
+
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# environment
+EFC_7484_1592913036 = 1
+# environment
+USERPROFILE = C:\Users\PROTECH_WD
+# environment
+C_INCLUDE_PATH = C:\Users\PROTECH_WD\scoop\apps\gcc\current\include
+# environment
+LOCALAPPDATA = C:\Users\PROTECH_WD\AppData\Local
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+VSCODE_CWD = C:\Users\PROTECH_WD\AppData\Local\Programs\Microsoft VS Code Insiders
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 25
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := C:/Users/PROTECH_WD/scoop/apps/make/current/bin/make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13152_RCZHKHUJXTXOPZXG
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# automatic
+%F = $(notdir $%)
+# environment
+GIT_INSTALL_ROOT = C:\Users\PROTECH_WD\scoop\apps\git\current
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\PROTECH_WD\AppData\Roaming\Code - Insiders\CachedData\7f08f95ad54782bd242f5536470b330282197333
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\PROTEC~1\AppData\Local\Temp
+# default
+.INCLUDE_DIRS := .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MINGW = C:\MinGW\bin
+# environment
+ONEDRIVE = C:\Users\PROTECH_WD\OneDrive
+# makefile
+CURDIR := c:/Users/PROTECH_WD/Desktop/projet_algo
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 13152
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"userLocale":"en-us","osLocale":"fr-fr","resolvedLanguage":"en","defaultMessagesFile":"C:\\Users\\PROTECH_WD\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\7f08f95ad5\\resources\\app\\out\\nls.messages.json","locale":"en-us","availableLanguages":{}}
+# environment
+ONEDRIVECONSUMER = C:\Users\PROTECH_WD\OneDrive
+# default
+MAKE_HOST := Windows32
+# makefile (from 'Makefile', line 4)
+OBJS = main.o game.o solver.o utils.o
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := C:/Users/PROTECH_WD/scoop/shims/sh.exe
+# environment
+HOMEPATH = \Users\PROTECH_WD
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\MinGW\bin;C:\Users\PROTECH_WD\scoop\apps\gcc\current\bin;C:\Users\PROTECH_WD\scoop\shims;C:\Users\PROTECH_WD\AppData\Local\Microsoft\WindowsApps;C:\Users\PROTECH_WD\AppData\Local\Programs\Microsoft VS Code Insiders\bin
+# environment
+COMPUTERNAME = ABDOU-PC112
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+LOGONSERVER = \\ABDOU-PC112
+# environment
+USERNAME = PROTECH_WD
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+USERDOMAIN = ABDOU-PC112
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# environment
+AMDRMSDKPATH = C:\Program Files\AMD\RyzenMasterSDK\
+# makefile
+.DEFAULT_GOAL := all
+# default
+MAKE_VERSION := 4.4.1
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = ABDOU-PC112
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\PROTECH_WD\AppData\Roaming
+# makefile (from 'Makefile', line 2)
+CFLAGS = -Wall -g
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+CPLUS_INCLUDE_PATH = C:\Users\PROTECH_WD\scoop\apps\gcc\current\include
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\PROTEC~1\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\452e3107-1.108.0-insider-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'Makefile', line 3)
+TARGET = wordle
+# environment
+SESSIONNAME = Console
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs notintermediate shell-export archives jobserver output-sync load dospaths
+# environment
+PROCESSOR_REVISION = 2102
+# makefile (from 'Makefile', line 1)
+CC = gcc
+# environment
+VSCODE_ESM_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD
+# variable set hash-table stats:
+# Load=99/1024=10%, Rehash=0, Collisions=13/137=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/PROTECH_WD/Desktop/projet_algo, mtime 1766207133): 19 files, no impossibilities.
+
+# 19 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+solver.h:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-12-19 17:10:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-12-19 21:30:19
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 24):
+	rm -f $(OBJS) $(TARGET)
+
+# Not a target:
+utils.h:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-12-19 17:10:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+game.h:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-12-19 17:10:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+utils.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-12-19 21:42:55
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+game.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-12-19 17:10:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: wordle
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+
+run: wordle
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 27):
+	./$(TARGET)
+
+# Not a target:
+main.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-12-19 17:10:36
+#  File has been updated.
+#  Successfully updated.
+
+main.o: main.c game.h solver.h utils.h
+#  Implicit rule search has not been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-12-19 21:30:27
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 12):
+	$(CC) $(CFLAGS) -c main.c
+
+# Not a target:
+solver.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-12-19 17:40:23
+#  File has been updated.
+#  Successfully updated.
+
+solver.o: solver.c solver.h game.h
+#  Implicit rule search has not been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-12-19 21:30:28
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 18):
+	$(CC) $(CFLAGS) -c solver.c
+
+wordle: main.o game.o solver.o utils.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := wordle
+# automatic
+# * := 
+# automatic
+# < := main.o
+# automatic
+# + := main.o game.o solver.o utils.o
+# automatic
+# % := 
+# automatic
+# ^ := main.o game.o solver.o utils.o
+# automatic
+# ? := main.o game.o solver.o utils.o
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 9):
+	$(CC) $(CFLAGS) -o $(TARGET) $(OBJS)
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+utils.o: utils.c utils.h game.h
+#  Implicit rule search has not been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-12-19 21:43:14
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 21):
+	$(CC) $(CFLAGS) -c utils.c
+
+.PHONY: all clean run
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+game.o: game.c game.h
+#  Implicit rule search has not been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-12-19 21:30:27
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 15):
+	$(CC) $(CFLAGS) -c game.c
+
+# files hash-table stats:
+# Load=19/1024=2%, Rehash=0, Collisions=0/58=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 26 / storage = 191 B / avg = 7 B
+# current buf: size = 8174 B / used = 191 B / count = 26 / avg = 7 B
+
+# strcache performance: lookups = 66 / hit rate = 60%
+# hash-table stats:
+# Load=26/8192=0%, Rehash=0, Collisions=0/66=0%
+# Finished Make data base on Fri Dec 19 22:16:41 2025
+
+ 

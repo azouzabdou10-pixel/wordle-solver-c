@@ -1,0 +1,9 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Users/PROTECH_WD/Desktop/projet_algo'
+gcc -Wall -g -c main.c
+gcc -Wall -g -c game.c
+gcc -Wall -g -c solver.c
+gcc -Wall -g -c utils.c
+gcc -Wall -g -o wordle main.o game.o solver.o utils.o
+make: Leaving directory 'c:/Users/PROTECH_WD/Desktop/projet_algo'
+ 
